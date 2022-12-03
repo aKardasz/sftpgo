@@ -39,6 +39,7 @@ import (
 const (
 	mysqlResetSQL = "DROP TABLE IF EXISTS `{{api_keys}}` CASCADE;" +
 		"DROP TABLE IF EXISTS `{{folders_mapping}}` CASCADE;" +
+		
 		"DROP TABLE IF EXISTS `{{users_folders_mapping}}` CASCADE;" +
 		"DROP TABLE IF EXISTS `{{users_groups_mapping}}` CASCADE;" +
 		"DROP TABLE IF EXISTS `{{admins_groups_mapping}}` CASCADE;" +
