@@ -29,9 +29,9 @@ import (
 	"github.com/sftpgo/sdk/plugin/notifier"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/plugin"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/plugin"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 func TestNewActionNotification(t *testing.T) {

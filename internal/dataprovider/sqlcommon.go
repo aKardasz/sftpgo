@@ -28,9 +28,9 @@ import (
 	"github.com/cockroachdb/cockroach-go/v2/crdb"
 	"github.com/sftpgo/sdk"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 const (

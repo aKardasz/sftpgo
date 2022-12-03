@@ -29,10 +29,10 @@ import (
 	passwordvalidator "github.com/wagslane/go-password-validator"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/mfa"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/mfa"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 // Available permissions for SFTPGo admins

@@ -24,8 +24,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
 )
 
 var (

@@ -25,15 +25,15 @@ import (
 	"golang.org/x/sys/windows/svc/eventlog"
 	"golang.org/x/sys/windows/svc/mgr"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/ftpd"
-	"github.com/drakkan/sftpgo/v2/internal/httpd"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/plugin"
-	"github.com/drakkan/sftpgo/v2/internal/sftpd"
-	"github.com/drakkan/sftpgo/v2/internal/telemetry"
-	"github.com/drakkan/sftpgo/v2/internal/webdavd"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/ftpd"
+	"github.com/aKardasz/sftpgo/v2/internal/httpd"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/plugin"
+	"github.com/aKardasz/sftpgo/v2/internal/sftpd"
+	"github.com/aKardasz/sftpgo/v2/internal/telemetry"
+	"github.com/aKardasz/sftpgo/v2/internal/webdavd"
 )
 
 const (

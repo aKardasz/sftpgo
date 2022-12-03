@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 const (

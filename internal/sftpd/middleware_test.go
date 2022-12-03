@@ -21,7 +21,7 @@ import (
 	"github.com/pkg/sftp"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/drakkan/sftpgo/v2/internal/sftpd/mocks"
+	"github.com/aKardasz/sftpgo/v2/internal/sftpd/mocks"
 )
 
 type PrefixMiddlewareSuite struct {

@@ -28,10 +28,10 @@ import (
 	"github.com/pkg/sftp"
 	"github.com/sftpgo/sdk"
 
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 // BaseConnection defines common fields for a connection using any supported protocol

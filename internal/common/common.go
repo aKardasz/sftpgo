@@ -33,14 +33,14 @@ import (
 
 	"github.com/pires/go-proxyproto"
 
-	"github.com/drakkan/sftpgo/v2/internal/command"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/httpclient"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/metric"
-	"github.com/drakkan/sftpgo/v2/internal/plugin"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/command"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/httpclient"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/metric"
+	"github.com/aKardasz/sftpgo/v2/internal/plugin"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 // constants

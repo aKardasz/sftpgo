@@ -62,14 +62,14 @@ import (
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/drakkan/sftpgo/v2/internal/command"
-	"github.com/drakkan/sftpgo/v2/internal/httpclient"
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/mfa"
-	"github.com/drakkan/sftpgo/v2/internal/plugin"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/command"
+	"github.com/aKardasz/sftpgo/v2/internal/httpclient"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/mfa"
+	"github.com/aKardasz/sftpgo/v2/internal/plugin"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 const (

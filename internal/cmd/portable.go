@@ -27,13 +27,13 @@ import (
 	"github.com/sftpgo/sdk"
 	"github.com/spf13/cobra"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/service"
-	"github.com/drakkan/sftpgo/v2/internal/sftpd"
-	"github.com/drakkan/sftpgo/v2/internal/version"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/service"
+	"github.com/aKardasz/sftpgo/v2/internal/sftpd"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 var (

@@ -20,7 +20,7 @@ package dataprovider
 import (
 	"errors"
 
-	"github.com/drakkan/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
 )
 
 func init() {

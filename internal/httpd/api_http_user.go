@@ -28,10 +28,10 @@ import (
 	"github.com/go-chi/render"
 	"github.com/rs/xid"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 func getUserConnection(w http.ResponseWriter, r *http.Request) (*Connection, error) {

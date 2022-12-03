@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/drakkan/sftpgo/ldapauthserver/config"
-	"github.com/drakkan/sftpgo/ldapauthserver/logger"
-	"github.com/drakkan/sftpgo/ldapauthserver/utils"
+	"github.com/aKardasz/sftpgo/ldapauthserver/config"
+	"github.com/aKardasz/sftpgo/ldapauthserver/logger"
+	"github.com/aKardasz/sftpgo/ldapauthserver/utils"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"

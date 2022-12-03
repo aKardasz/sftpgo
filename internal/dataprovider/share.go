@@ -24,8 +24,8 @@ import (
 	"github.com/alexedwards/argon2id"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 // ShareScope defines the supported share scopes

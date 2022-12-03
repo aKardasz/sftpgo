@@ -30,16 +30,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/drakkan/webdav"
+	"github.com/aKardasz/webdav"
 	"github.com/eikenb/pipeat"
 	"github.com/sftpgo/sdk"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 const (

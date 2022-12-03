@@ -44,16 +44,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/studio-b12/gowebdav"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/config"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/httpclient"
-	"github.com/drakkan/sftpgo/v2/internal/httpdtest"
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/sftpd"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
-	"github.com/drakkan/sftpgo/v2/internal/webdavd"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/config"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/httpclient"
+	"github.com/aKardasz/sftpgo/v2/internal/httpdtest"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/sftpd"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/webdavd"
 )
 
 const (

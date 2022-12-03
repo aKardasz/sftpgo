@@ -16,15 +16,15 @@
 // FTP/S and WebDAV support.
 // For more details about features, installation, configuration and usage
 // please refer to the README inside the source tree:
-// https://github.com/drakkan/sftpgo/blob/main/README.md
-package main // import "github.com/drakkan/sftpgo"
+// https://github.com/aKardasz/sftpgo/blob/main/README.md
+package main // import "github.com/aKardasz/sftpgo"
 
 import (
 	"fmt"
 
 	"go.uber.org/automaxprocs/maxprocs"
 
-	"github.com/drakkan/sftpgo/v2/internal/cmd"
+	"github.com/aKardasz/sftpgo/v2/internal/cmd"
 )
 
 func main() {

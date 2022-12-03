@@ -17,7 +17,7 @@ package vfs
 import (
 	"github.com/sftpgo/sdk"
 
-	"github.com/drakkan/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
 )
 
 // Filesystem defines filesystem details

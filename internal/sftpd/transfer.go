@@ -20,9 +20,9 @@ import (
 
 	"github.com/eikenb/pipeat"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/metric"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/metric"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 type writerAtCloser interface {

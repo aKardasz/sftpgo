@@ -24,7 +24,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/drakkan/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
 )
 
 const (

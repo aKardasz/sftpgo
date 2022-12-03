@@ -31,7 +31,7 @@ import (
 	"github.com/pkg/sftp"
 	"github.com/rs/xid"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
 )
 
 const (

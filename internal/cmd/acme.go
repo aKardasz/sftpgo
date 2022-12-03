@@ -20,10 +20,10 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 
-	"github.com/drakkan/sftpgo/v2/internal/acme"
-	"github.com/drakkan/sftpgo/v2/internal/config"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/acme"
+	"github.com/aKardasz/sftpgo/v2/internal/config"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 var (

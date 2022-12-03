@@ -23,7 +23,7 @@ import (
 
 	"github.com/pkg/sftp"
 
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 // Middleware defines the interface for SFTP middlewares

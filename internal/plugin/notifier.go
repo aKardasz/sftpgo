@@ -24,8 +24,8 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"github.com/sftpgo/sdk/plugin/notifier"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 // NotifierConfig defines configuration parameters for notifiers plugins

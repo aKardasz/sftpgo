@@ -34,9 +34,9 @@ import (
 	"github.com/sftpgo/sdk/plugin/metadata"
 	"github.com/sftpgo/sdk/plugin/notifier"
 
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 const (

@@ -28,10 +28,10 @@ import (
 
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/version"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 const (

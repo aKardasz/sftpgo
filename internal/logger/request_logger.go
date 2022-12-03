@@ -23,7 +23,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/rs/zerolog"
 
-	"github.com/drakkan/sftpgo/v2/internal/metric"
+	"github.com/aKardasz/sftpgo/v2/internal/metric"
 )
 
 // StructuredLogger defines a simple wrapper around zerolog logger.

@@ -21,9 +21,9 @@ import (
 
 	"github.com/robfig/cron/v3"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/metric"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/metric"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 var (

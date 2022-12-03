@@ -23,8 +23,8 @@ import (
 
 	"github.com/go-chi/render"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
 )
 
 func getDefenderHosts(w http.ResponseWriter, r *http.Request) {

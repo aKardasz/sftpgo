@@ -23,7 +23,7 @@ import (
 	"io/fs"
 	"net/http"
 
-	"github.com/drakkan/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
 )
 
 func init() {

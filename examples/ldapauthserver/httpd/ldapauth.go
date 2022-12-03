@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/drakkan/sftpgo/ldapauthserver/logger"
+	"github.com/aKardasz/sftpgo/ldapauthserver/logger"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
 	"github.com/go-ldap/ldap/v3"

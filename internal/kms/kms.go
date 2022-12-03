@@ -24,7 +24,7 @@ import (
 
 	sdkkms "github.com/sftpgo/sdk/kms"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
 )
 
 // SecretProvider defines the interface for a KMS secrets provider

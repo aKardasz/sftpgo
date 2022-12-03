@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
 )
 
 // FindSharedDataPath searches for the specified directory name in searchDir

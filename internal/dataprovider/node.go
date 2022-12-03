@@ -29,10 +29,10 @@ import (
 	"github.com/lestrrat-go/jwx/v2/jwt"
 	"github.com/rs/xid"
 
-	"github.com/drakkan/sftpgo/v2/internal/httpclient"
-	"github.com/drakkan/sftpgo/v2/internal/kms"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/httpclient"
+	"github.com/aKardasz/sftpgo/v2/internal/kms"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 // Supported protocols for connecting to other nodes

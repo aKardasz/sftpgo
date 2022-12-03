@@ -20,8 +20,8 @@ import (
 
 	"github.com/eikenb/pipeat"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 // transfer contains the transfer details for an upload or a download.

@@ -20,7 +20,7 @@ package httpd
 import (
 	"github.com/go-chi/chi/v5"
 
-	"github.com/drakkan/sftpgo/v2/internal/bundle"
+	"github.com/aKardasz/sftpgo/v2/internal/bundle"
 )
 
 func serveStaticDir(router chi.Router, path, _ string) {

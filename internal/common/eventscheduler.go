@@ -19,7 +19,7 @@ import (
 
 	"github.com/robfig/cron/v3"
 
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 var (

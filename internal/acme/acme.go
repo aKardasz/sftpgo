@@ -45,14 +45,14 @@ import (
 	"github.com/go-acme/lego/v4/registration"
 	"github.com/robfig/cron/v3"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
-	"github.com/drakkan/sftpgo/v2/internal/ftpd"
-	"github.com/drakkan/sftpgo/v2/internal/httpd"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/telemetry"
-	"github.com/drakkan/sftpgo/v2/internal/util"
-	"github.com/drakkan/sftpgo/v2/internal/version"
-	"github.com/drakkan/sftpgo/v2/internal/webdavd"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/ftpd"
+	"github.com/aKardasz/sftpgo/v2/internal/httpd"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/telemetry"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/webdavd"
 )
 
 const (

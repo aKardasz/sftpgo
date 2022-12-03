@@ -23,7 +23,7 @@ import (
 	"github.com/rs/xid"
 	"github.com/sftpgo/sdk"
 
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 // BaseVirtualFolder defines the path for the virtual folder and the used quota limits.

@@ -22,7 +22,7 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"github.com/sftpgo/sdk/plugin/metadata"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
 )
 
 type metadataPlugin struct {

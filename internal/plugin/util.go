@@ -17,7 +17,7 @@ package plugin
 import (
 	"github.com/shirou/gopsutil/v3/process"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
 )
 
 func killProcess(processPath string) {

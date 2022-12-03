@@ -22,9 +22,9 @@ import (
 	"github.com/go-chi/jwtauth/v5"
 	"github.com/go-chi/render"
 
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/smtp"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/smtp"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 func getAdmins(w http.ResponseWriter, r *http.Request) {

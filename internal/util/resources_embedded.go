@@ -21,8 +21,8 @@ import (
 	"html/template"
 	"os"
 
-	"github.com/drakkan/sftpgo/v2/internal/bundle"
-	"github.com/drakkan/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/bundle"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
 )
 
 // FindSharedDataPath searches for the specified directory name in searchDir

@@ -29,9 +29,9 @@ import (
 	// we import pgx here to be able to disable PostgreSQL support using a build tag
 	_ "github.com/jackc/pgx/v5/stdlib"
 
-	"github.com/drakkan/sftpgo/v2/internal/logger"
-	"github.com/drakkan/sftpgo/v2/internal/version"
-	"github.com/drakkan/sftpgo/v2/internal/vfs"
+	"github.com/aKardasz/sftpgo/v2/internal/logger"
+	"github.com/aKardasz/sftpgo/v2/internal/version"
+	"github.com/aKardasz/sftpgo/v2/internal/vfs"
 )
 
 const (

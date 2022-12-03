@@ -21,9 +21,9 @@ import (
 
 	"github.com/sftpgo/sdk/plugin/eventsearcher"
 
-	"github.com/drakkan/sftpgo/v2/internal/dataprovider"
-	"github.com/drakkan/sftpgo/v2/internal/plugin"
-	"github.com/drakkan/sftpgo/v2/internal/util"
+	"github.com/aKardasz/sftpgo/v2/internal/dataprovider"
+	"github.com/aKardasz/sftpgo/v2/internal/plugin"
+	"github.com/aKardasz/sftpgo/v2/internal/util"
 )
 
 func getCommonSearchParamsFromRequest(r *http.Request) (eventsearcher.CommonSearchParams, error) {

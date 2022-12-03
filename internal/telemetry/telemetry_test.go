@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/drakkan/sftpgo/v2/internal/common"
+	"github.com/aKardasz/sftpgo/v2/internal/common"
 )
 
 const (
