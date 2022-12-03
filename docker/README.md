@@ -1,6 +1,6 @@
 # Official Docker image
 
-SFTPGo provides an official Docker image, it is available on both [Docker Hub](https://hub.docker.com/r/drakkan/sftpgo) and on [GitHub Container Registry](https://github.com/users/drakkan/packages/container/package/sftpgo).
+SFTPGo provides an official Docker image, it is available on both [Docker Hub](https://hub.docker.com/r/aKardasz/sftpgo) and on [GitHub Container Registry](https://github.com/users/aKardasz/packages/container/package/sftpgo).
 
 ## Supported tags and respective Dockerfile links
 
@@ -24,7 +24,7 @@ SFTPGo provides an official Docker image, it is available on both [Docker Hub](h
 Starting a SFTPGo instance is simple:
 
 ```shell
-docker run --name some-sftpgo -p 8080:8080 -p 2022:2022 -d "drakkan/sftpgo:tag"
+docker run --name some-sftpgo -p 8080:8080 -p 2022:2022 -d "aKardasz/sftpgo:tag"
 ```
 
 ... where `some-sftpgo` is the name you want to assign to your container, and `tag` is the tag specifying the SFTPGo version you want. See the list above for relevant tags.
@@ -34,10 +34,10 @@ Now visit [http://localhost:8080/web/admin](http://localhost:8080/web/admin), re
 If you don't want to persist any files, for example for testing purposes, you can run an SFTPGo instance like this:
 
 ```shell
-docker run --rm --name some-sftpgo -p 8080:8080 -p 2022:2022 -d "drakkan/sftpgo:tag"
+docker run --rm --name some-sftpgo -p 8080:8080 -p 2022:2022 -d "aKardasz/sftpgo:tag"
 ```
 
-If you prefer GitHub Container Registry to Docker Hub replace `drakkan/sftpgo:tag` with `ghcr.io/drakkan/sftpgo:tag`.
+If you prefer GitHub Container Registry to Docker Hub replace `aKardasz/sftpgo:tag` with `ghcr.io/aKardasz/sftpgo:tag`.
 
 ### Enable FTP service
 
@@ -51,7 +51,7 @@ docker run --name some-sftpgo \
     -p 50000-50100:50000-50100 \
     -e SFTPGO_FTPD__BINDINGS__0__PORT=2121 \
     -e SFTPGO_FTPD__BINDINGS__0__FORCE_PASSIVE_IP=<your external ip here> \
-    -d "drakkan/sftpgo:tag"
+    -d "aKardasz/sftpgo:tag"
 ```
 
 The FTP service is now available on port 2121 and SFTP on port 2022.
@@ -70,7 +70,7 @@ docker run --name some-sftpgo \
     -p 2022:2022 \
     -p 10080:10080 \
     -e SFTPGO_WEBDAVD__BINDINGS__0__PORT=10080 \
-    -d "drakkan/sftpgo:tag"
+    -d "aKardasz/sftpgo:tag"
 ```
 
 The WebDAV service is now available on port 10080 and SFTP on port 2022.
@@ -113,7 +113,7 @@ docker run --name some-sftpgo \
     --mount type=bind,source=/my/own/sftpgodata,target=/srv/sftpgo \
     --mount type=bind,source=/my/own/sftpgohome,target=/var/lib/sftpgo \
     -e SFTPGO_HTTPD__BINDINGS__0__PORT=8090 \
-    -d "drakkan/sftpgo:tag"
+    -d "aKardasz/sftpgo:tag"
 ```
 
 As you can see SFTPGo uses two main volumes:
@@ -160,13 +160,13 @@ docker run --name some-sftpgo \
     -p 2022:2022 \
     --mount type=bind,source="${PWD}/data",target=/srv/sftpgo \
     --mount type=bind,source="${PWD}/config",target=/var/lib/sftpgo \
-    -d "drakkan/sftpgo:tag"
+    -d "aKardasz/sftpgo:tag"
 ```
 
 Alternately build your own image using the official one as a base, here is a sample Dockerfile:
 
 ```shell
-FROM drakkan/sftpgo:tag
+FROM aKardasz/sftpgo:tag
 USER root
 RUN chown -R 1100:1100 /etc/sftpgo && chown 1100:1100 /var/lib/sftpgo /srv/sftpgo
 USER 1100:1100

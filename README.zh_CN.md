@@ -1,9 +1,9 @@
 # SFTPGo
 
 [![CI Status](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)
-[![Code Coverage](https://codecov.io/gh/drakkan/sftpgo/branch/main/graph/badge.svg)](https://codecov.io/gh/drakkan/sftpgo/branch/main)
+[![Code Coverage](https://codecov.io/gh/aKardasz/sftpgo/branch/main/graph/badge.svg)](https://codecov.io/gh/aKardasz/sftpgo/branch/main)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![Docker Pulls](https://img.shields.io/docker/pulls/drakkan/sftpgo)](https://hub.docker.com/r/drakkan/sftpgo)
+[![Docker Pulls](https://img.shields.io/docker/pulls/aKardasz/sftpgo)](https://hub.docker.com/r/aKardasz/sftpgo)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 [English](./README.md) | [简体中文](./README.zh_CN.md)
@@ -20,7 +20,7 @@
 我想让 SFTPGo 成为一个可持续的长期项目，并且不想引入双重许可选项并将某些功能仅限于专有版本。
 
 如果您使用 SFTPGo，确保您所依赖的项目保持健康和维护良好符合您的最大利益。
-这只能通过您的捐款和[赞助](https://github.com/sponsors/drakkan) 发生：heart：
+这只能通过您的捐款和[赞助](https://github.com/sponsors/aKardasz) 发生：heart：
 
 如果您只是拿走任何东西而不返回任何东西，从长远来看，该项目将失败，您将被迫为类似的专有解决方案付费。
 
@@ -340,7 +340,7 @@ SFTPGo 使用了 [go.mod](./go.mod) 中列出的第三方库。
 
 ## 赞助者
 
-我希望可以使 STFPGo 成为一个可持续发展的长期项目，你的 [赞助](https://github.com/sponsors/drakkan) 对我很有帮助！:heart:
+我希望可以使 STFPGo 成为一个可持续发展的长期项目，你的 [赞助](https://github.com/sponsors/aKardasz) 对我很有帮助！:heart:
 
 感谢我们的赞助者！
 

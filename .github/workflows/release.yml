@@ -121,7 +121,7 @@ jobs:
           cp -r static output/
           cp -r openapi output/
           cp -r templates output/
-          cp init/com.github.drakkan.sftpgo.plist output/init/
+          cp init/com.github.aKardasz.sftpgo.plist output/init/
           ./sftpgo gen completion bash > output/bash_completion/sftpgo
           ./sftpgo gen completion zsh > output/zsh_completion/_sftpgo
           ./sftpgo gen man -d output/man/man1

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.github.drakkan.sftpgo</string>
+    <string>com.github.aKardasz.sftpgo</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>SFTPGO_CONFIG_DIR</key>

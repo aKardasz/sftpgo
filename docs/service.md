@@ -71,7 +71,7 @@ The easiest way to run SFTPGo as a service is to install it from the Homebrew [F
 
 This section describes the procedure to use if you prefer to build SFTPGo yourself or if you want to download and configure a pre-built release as tar.
 
-For macOS, a `launchd` sample [service](../init/com.github.drakkan.sftpgo.plist "launchd plist") can be found inside the source tree. The `launchd` plist assumes that SFTPGo has `/usr/local/opt/sftpgo` as base directory.
+For macOS, a `launchd` sample [service](../init/com.github.aKardasz.sftpgo.plist "launchd plist") can be found inside the source tree. The `launchd` plist assumes that SFTPGo has `/usr/local/opt/sftpgo` as base directory.
 
 Here are some basic instructions to run SFTPGo as service, please run the following commands from the directory where you downloaded SFTPGo:
 
@@ -87,8 +87,8 @@ sudo mkdir -p /usr/local/opt/sftpgo/init \
 # install sftpgo executable
 sudo cp sftpgo /usr/local/opt/sftpgo/bin/
 # install the launchd service
-sudo cp init/com.github.drakkan.sftpgo.plist /usr/local/opt/sftpgo/init/
-sudo chown root:wheel /usr/local/opt/sftpgo/init/com.github.drakkan.sftpgo.plist
+sudo cp init/com.github.aKardasz.sftpgo.plist /usr/local/opt/sftpgo/init/
+sudo chown root:wheel /usr/local/opt/sftpgo/init/com.github.aKardasz.sftpgo.plist
 # install the default configuration file, edit it if required
 sudo cp sftpgo.json /usr/local/opt/sftpgo/etc/
 # install static files and templates for the web UI
@@ -97,11 +97,11 @@ sudo cp -r static templates openapi /usr/local/opt/sftpgo/usr/share/
 # if you want to use MySQL or PostgreSQL you need to create the configured database before running the initprovider command
 sudo /usr/local/opt/sftpgo/bin/sftpgo initprovider -c /usr/local/opt/sftpgo/etc/
 # add sftpgo to the launch daemons
-sudo ln -s /usr/local/opt/sftpgo/init/com.github.drakkan.sftpgo.plist /Library/LaunchDaemons/com.github.drakkan.sftpgo.plist
+sudo ln -s /usr/local/opt/sftpgo/init/com.github.aKardasz.sftpgo.plist /Library/LaunchDaemons/com.github.aKardasz.sftpgo.plist
 # start the service and enable it to start on boot
-sudo launchctl load -w /Library/LaunchDaemons/com.github.drakkan.sftpgo.plist
+sudo launchctl load -w /Library/LaunchDaemons/com.github.aKardasz.sftpgo.plist
 # verify that the service is started
-sudo launchctl list com.github.drakkan.sftpgo
+sudo launchctl list com.github.aKardasz.sftpgo
 ```
 
 ## Windows

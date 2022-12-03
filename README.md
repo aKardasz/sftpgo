@@ -1,9 +1,9 @@
 # SFTPGo
 
 [![CI Status](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)
-[![Code Coverage](https://codecov.io/gh/drakkan/sftpgo/branch/main/graph/badge.svg)](https://codecov.io/gh/drakkan/sftpgo/branch/main)
+[![Code Coverage](https://codecov.io/gh/aKardasz/sftpgo/branch/main/graph/badge.svg)](https://codecov.io/gh/aKardasz/sftpgo/branch/main)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![Docker Pulls](https://img.shields.io/docker/pulls/drakkan/sftpgo)](https://hub.docker.com/r/drakkan/sftpgo)
+[![Docker Pulls](https://img.shields.io/docker/pulls/aKardasz/sftpgo)](https://hub.docker.com/r/aKardasz/sftpgo)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 [English](./README.md) | [简体中文](./README.zh_CN.md)
@@ -20,7 +20,7 @@ Maintaining and evolving SFTPGo is a lot of work - easily the equivalent of a fu
 I'd like to make SFTPGo into a sustainable long term project and would not like to introduce a dual licensing option and limit some features to the proprietary version only.
 
 If you use SFTPGo, it is in your best interest to ensure that the project you rely on stays healthy and well maintained.
-This can only happen with your donations and [sponsorships](https://github.com/sponsors/drakkan) :heart:
+This can only happen with your donations and [sponsorships](https://github.com/sponsors/aKardasz) :heart:
 
 If you just take and don't return anything back, the project will die in the long run and you will be forced to pay for a similar proprietary solution.
 

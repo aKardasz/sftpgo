@@ -9,7 +9,7 @@
 		<title>SFTPGo</title>
 		<authors>Nicola Murino</authors>
 		<projectUrl>https://github.com/aKardasz/sftpgo</projectUrl>
-		<iconUrl>https://cdn.statically.io/gh/drakkan/sftpgo/v2.4.2/static/img/logo.png</iconUrl>
+		<iconUrl>https://cdn.statically.io/gh/aKardasz/sftpgo/v2.4.2/static/img/logo.png</iconUrl>
 		<licenseUrl>https://github.com/aKardasz/sftpgo/blob/main/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<projectSourceUrl>https://github.com/aKardasz/sftpgo</projectSourceUrl>
