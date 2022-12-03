@@ -1,4 +1,4 @@
-module github.com/drakkan/sftpgo/v2
+module github.com/aKardasz/sftpgo/v2
 
 go 1.19
 
@@ -19,7 +19,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.17.5
 	github.com/cockroachdb/cockroach-go/v2 v2.2.19
 	github.com/coreos/go-oidc/v3 v3.4.0
-	github.com/drakkan/webdav v0.0.0-20221101181759-17ed21f9337b
+	github.com/aKardasz/webdav v0.0.0-20221101181759-17ed21f9337b
 	github.com/eikenb/pipeat v0.0.0-20210730190139-06b3e6902001
 	github.com/fclairamb/ftpserverlib v0.20.1-0.20221012093027-95be4ae0c9a6
 	github.com/fclairamb/go-log v0.4.1
@@ -168,6 +168,6 @@ require (
 )
 
 replace (
-	github.com/jlaffaye/ftp => github.com/drakkan/ftp v0.0.0-20201114075148-9b9adce499a9
-	golang.org/x/crypto => github.com/drakkan/crypto v0.0.0-20221117111000-a0321143587c
+	github.com/jlaffaye/ftp => github.com/aKardasz/ftp v0.0.0-20201114075148-9b9adce499a9
+	golang.org/x/crypto => github.com/aKardasz/crypto v0.0.0-20221117111000-a0321143587c
 )

@@ -1,4 +1,4 @@
-module github.com/drakkan/ldapauth
+module github.com/aKardasz/ldapauth
 
 go 1.15
 

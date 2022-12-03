@@ -1,4 +1,4 @@
-module github.com/drakkan/sftpgo/tests/eventsearcher
+module github.com/aKardasz/sftpgo/tests/eventsearcher
 
 go 1.19
 

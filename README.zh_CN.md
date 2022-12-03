@@ -1,6 +1,6 @@
 # SFTPGo
 
-[![CI Status](https://github.com/drakkan/sftpgo/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/drakkan/sftpgo/workflows/CI/badge.svg?branch=main&event=push)
+[![CI Status](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)
 [![Code Coverage](https://codecov.io/gh/drakkan/sftpgo/branch/main/graph/badge.svg)](https://codecov.io/gh/drakkan/sftpgo/branch/main)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Docker Pulls](https://img.shields.io/docker/pulls/drakkan/sftpgo)](https://hub.docker.com/r/drakkan/sftpgo)
@@ -24,7 +24,7 @@
 
 如果您只是拿走任何东西而不返回任何东西，从长远来看，该项目将失败，您将被迫为类似的专有解决方案付费。
 
-[更多信息](https://github.com/drakkan/sftpgo/issues/452)。
+[更多信息](https://github.com/aKardasz/sftpgo/issues/452)。
 
 ### 感谢我们的赞助商
 
@@ -107,7 +107,7 @@ SFTPGo 基于 Linux 开发和创建。在每一次提交之后，代码会自动
 
 ## 安装
 
-为 Linux、macOS 和 Windows 提供的二进制发行版是可用的。请参考 [发行版](https://github.com/drakkan/sftpgo/releases "releases") 页面。
+为 Linux、macOS 和 Windows 提供的二进制发行版是可用的。请参考 [发行版](https://github.com/aKardasz/sftpgo/releases "releases") 页面。
 
 一个官方的 Docker 镜像是可用的。文档参考 [Docker](./docker/README.md)。
 
@@ -138,7 +138,7 @@ SFTPGo 在 [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?i
 
 在 FreeBSD，你可以从 [SFTPGo port](https://www.freshports.org/ftp/sftpgo) 下载。
 在 DragonFlyBSD，你可以从 [DPorts](https://github.com/DragonFlyBSD/DPorts/tree/master/ftp/sftpgo) 下载。
-您可以从 [Actions](https://github.com/drakkan/sftpgo/Actions) 页面选择一个 commit 并下载 Linux、macOS 或 Windows 的匹配构建，从而轻松测试新特性。GitHub 存储 90 天。
+您可以从 [Actions](https://github.com/aKardasz/sftpgo/Actions) 页面选择一个 commit 并下载 Linux、macOS 或 Windows 的匹配构建，从而轻松测试新特性。GitHub 存储 90 天。
 
 另外，你可以 [从源码构建](./docs/build-from-source.md)。
 

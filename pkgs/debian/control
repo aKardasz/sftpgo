@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Nicola Murino <nicola.murino@gmail.com>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
-Homepage: https://github.com/drakkan/sftpgo
-Vcs-Git: https://github.com/drakkan/sftpgo.git
+Homepage: https://github.com/aKardasz/sftpgo
+Vcs-Git: https://github.com/aKardasz/sftpgo.git
 
 Package: sftpgo
 Architecture: any

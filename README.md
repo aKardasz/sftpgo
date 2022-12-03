@@ -1,6 +1,6 @@
 # SFTPGo
 
-[![CI Status](https://github.com/drakkan/sftpgo/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/drakkan/sftpgo/workflows/CI/badge.svg?branch=main&event=push)
+[![CI Status](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/aKardasz/sftpgo/workflows/CI/badge.svg?branch=main&event=push)
 [![Code Coverage](https://codecov.io/gh/drakkan/sftpgo/branch/main/graph/badge.svg)](https://codecov.io/gh/drakkan/sftpgo/branch/main)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Docker Pulls](https://img.shields.io/docker/pulls/drakkan/sftpgo)](https://hub.docker.com/r/drakkan/sftpgo)
@@ -24,7 +24,7 @@ This can only happen with your donations and [sponsorships](https://github.com/s
 
 If you just take and don't return anything back, the project will die in the long run and you will be forced to pay for a similar proprietary solution.
 
-More [info](https://github.com/drakkan/sftpgo/issues/452).
+More [info](https://github.com/aKardasz/sftpgo/issues/452).
 
 ### Thank you to our sponsors
 
@@ -112,7 +112,7 @@ SFTPGo is developed and tested on Linux. After each commit, the code is automati
 
 ## Installation
 
-Binary releases for Linux, macOS, and Windows are available. Please visit the [releases](https://github.com/drakkan/sftpgo/releases "releases") page.
+Binary releases for Linux, macOS, and Windows are available. Please visit the [releases](https://github.com/aKardasz/sftpgo/releases "releases") page.
 
 An official Docker image is available. Documentation is [here](./docker/README.md).
 
@@ -153,7 +153,7 @@ On macOS you can install from the Homebrew [Formula](https://formulae.brew.sh/fo
 On FreeBSD you can install from the [SFTPGo port](https://www.freshports.org/ftp/sftpgo).
 On DragonFlyBSD you can install SFTPGo from [DPorts](https://github.com/DragonFlyBSD/DPorts/tree/master/ftp/sftpgo).
 
-You can easily test new features selecting a commit from the [Actions](https://github.com/drakkan/sftpgo/actions) page and downloading the matching build artifacts for Linux, macOS or Windows. GitHub stores artifacts for 90 days.
+You can easily test new features selecting a commit from the [Actions](https://github.com/aKardasz/sftpgo/actions) page and downloading the matching build artifacts for Linux, macOS or Windows. GitHub stores artifacts for 90 days.
 
 Alternately, you can [build from source](./docs/build-from-source.md).
 

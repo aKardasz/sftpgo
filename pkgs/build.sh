@@ -57,7 +57,7 @@ description: |
   It can serve local filesystem, S3 (Compatible) Object Storage,
   Google Cloud Storage, Azure Blob Storage, SFTP.
 vendor: "SFTPGo"
-homepage: "https://github.com/drakkan/sftpgo"
+homepage: "https://github.com/aKardasz/sftpgo"
 license: "AGPL-3.0"
 provides:
   - sftpgo

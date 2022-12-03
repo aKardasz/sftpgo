@@ -4,17 +4,17 @@
 	<metadata>
 		<id>sftpgo</id>
 		<version>2.4.2</version>
-		<packageSourceUrl>https://github.com/drakkan/sftpgo/tree/main/pkgs/choco</packageSourceUrl>
+		<packageSourceUrl>https://github.com/aKardasz/sftpgo/tree/main/pkgs/choco</packageSourceUrl>
 		<owners>asheroto</owners>
 		<title>SFTPGo</title>
 		<authors>Nicola Murino</authors>
-		<projectUrl>https://github.com/drakkan/sftpgo</projectUrl>
+		<projectUrl>https://github.com/aKardasz/sftpgo</projectUrl>
 		<iconUrl>https://cdn.statically.io/gh/drakkan/sftpgo/v2.4.2/static/img/logo.png</iconUrl>
-		<licenseUrl>https://github.com/drakkan/sftpgo/blob/main/LICENSE</licenseUrl>
+		<licenseUrl>https://github.com/aKardasz/sftpgo/blob/main/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<projectSourceUrl>https://github.com/drakkan/sftpgo</projectSourceUrl>
-		<docsUrl>https://github.com/drakkan/sftpgo/tree/v2.4.2/docs</docsUrl>
-		<bugTrackerUrl>https://github.com/drakkan/sftpgo/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/aKardasz/sftpgo</projectSourceUrl>
+		<docsUrl>https://github.com/aKardasz/sftpgo/tree/v2.4.2/docs</docsUrl>
+		<bugTrackerUrl>https://github.com/aKardasz/sftpgo/issues</bugTrackerUrl>
 		<tags>sftp sftp-server ftp webdav s3 azure-blob google-cloud-storage cloud-storage scp data-at-rest-encryption multi-factor-authentication multi-step-authentication</tags>
 		<summary>Fully featured and highly configurable SFTP server with optional HTTP/S,FTP/S and WebDAV support.</summary>
 		<description>SFTPGo allows you to securely share your files over SFTP and optionally over HTTP/S, FTP/S and WebDAV as well.
@@ -26,13 +26,13 @@ SFTPGo allows to create HTTP/S links to externally share files and folders secur
 
 SFTPGo is highly customizable and extensible to suit your needs.
 
-You can find more info [here](https://github.com/drakkan/sftpgo).
+You can find more info [here](https://github.com/aKardasz/sftpgo).
 
 ### Notes
 
 * This package installs SFTPGo as Windows Service.
-* After the first installation please take a look at the [Getting Started Guide](https://github.com/drakkan/sftpgo/blob/main/docs/howto/getting-started.md).</description>
-		<releaseNotes>https://github.com/drakkan/sftpgo/releases/tag/v2.4.2</releaseNotes>
+* After the first installation please take a look at the [Getting Started Guide](https://github.com/aKardasz/sftpgo/blob/main/docs/howto/getting-started.md).</description>
+		<releaseNotes>https://github.com/aKardasz/sftpgo/releases/tag/v2.4.2</releaseNotes>
 	</metadata>
 	<files>
 		<file src="**" exclude="**\*.md;**\icon.png;**\icon.jpg;**\icon.svg" />

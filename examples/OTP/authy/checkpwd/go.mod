@@ -1,3 +1,3 @@
-module github.com/drakkan/sftpgo/authy/checkpwd
+module github.com/aKardasz/sftpgo/authy/checkpwd
 
 go 1.15

@@ -1,3 +1,3 @@
-module github.com/drakkan/sftpgo/authy/extauth
+module github.com/aKardasz/sftpgo/authy/extauth
 
 go 1.15

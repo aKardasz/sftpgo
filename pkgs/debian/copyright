@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: SFTPGo
-Source: https://github.com/drakkan/sftpgo
+Source: https://github.com/aKardasz/sftpgo
 
 Files: *
 Copyright: 2019-2021 Nicola Murino <nicola.murino@gmail.com>

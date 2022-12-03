@@ -30,24 +30,24 @@ the env.d directory.
 This eliminates the need to merge your changes with the default configuration file after each update.
 You can simply replace the configuration file with the default one after updating SFTPGo.
 
-https://github.com/drakkan/sftpgo/blob/main/docs/full-configuration.md
+https://github.com/aKardasz/sftpgo/blob/main/docs/full-configuration.md
 
 Getting started guide:
 
-https://github.com/drakkan/sftpgo/blob/main/docs/howto/getting-started.md
+https://github.com/aKardasz/sftpgo/blob/main/docs/howto/getting-started.md
 
 Step-to-step tutorials:
 
-https://github.com/drakkan/sftpgo/tree/main/docs/howto
+https://github.com/aKardasz/sftpgo/tree/main/docs/howto
 
 Source code and documentation:
 
-https://github.com/drakkan/sftpgo
+https://github.com/aKardasz/sftpgo
 
 If you find a bug please open an issue:
 
-https://github.com/drakkan/sftpgo/issues
+https://github.com/aKardasz/sftpgo/issues
 
 If you want to suggest a new feature or have a question, please start a new discussion:
 
-https://github.com/drakkan/sftpgo/discussions
+https://github.com/aKardasz/sftpgo/discussions

@@ -1,6 +1,6 @@
 # Running SFTPGo as a service
 
-Download a binary SFTPGo [release](https://github.com/drakkan/sftpgo/releases) or a build artifact for the [latest commit](https://github.com/drakkan/sftpgo/actions) or build SFTPGo yourself.
+Download a binary SFTPGo [release](https://github.com/aKardasz/sftpgo/releases) or a build artifact for the [latest commit](https://github.com/aKardasz/sftpgo/actions) or build SFTPGo yourself.
 
 Run the following instructions from the directory that contains the sftpgo binary and the accompanying files.
 

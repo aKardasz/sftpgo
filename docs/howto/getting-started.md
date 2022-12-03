@@ -26,7 +26,7 @@ In this tutorial we explore the main features and concepts using the built-in we
 
 ## Installation
 
-You can easily install SFTPGo by downloading the appropriate package for your operating system and architecture. Please visit the [releases](https://github.com/drakkan/sftpgo/releases "releases") page.
+You can easily install SFTPGo by downloading the appropriate package for your operating system and architecture. Please visit the [releases](https://github.com/aKardasz/sftpgo/releases "releases") page.
 
 An official Docker image is available. Documentation is [here](./../../docker/README.md).
 

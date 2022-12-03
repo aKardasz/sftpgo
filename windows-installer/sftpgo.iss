@@ -17,12 +17,12 @@
     #define MyAppArch64 "x64"
     #define MySetupName "sftpgo_windows_x86_64"
 #endif
-#define MyAppURL "https://github.com/drakkan/sftpgo"
+#define MyAppURL "https://github.com/aKardasz/sftpgo"
 #define MyVersionInfo StringChange(MyAppVersion,"v","")
 #if GetEnv("SFTPGO_ISS_DOC_URL") != ""
     #define DocURL GetEnv("SFTPGO_ISS_DOC_URL")
 #else
-    #define DocURL "https://github.com/drakkan/sftpgo/blob/main/README.md"
+    #define DocURL "https://github.com/aKardasz/sftpgo/blob/main/README.md"
 #endif
 #define MyAppExeName "sftpgo.exe"
 #define MyAppDir "..\output"
